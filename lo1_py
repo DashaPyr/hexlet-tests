@@ -1,0 +1,6 @@
+def capitalize(text):
+    first_char, *rest_chars = text
+    rest_subscribe = ''.join(rest_chars)
+    return f'{first_char.upper()}{rest_subscribe}'
+
+print(capitalize('hello'))
